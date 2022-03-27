@@ -11,7 +11,6 @@
   inputs.src-barcode-master.ref   = "refs/heads/master";
   inputs.src-barcode-master.owner = "bunkford";
   inputs.src-barcode-master.repo  = "barcode";
-  inputs.src-barcode-master.dir   = "";
   inputs.src-barcode-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
